@@ -1,6 +1,6 @@
-<h1 align="center"> Paixão Azucarada </h1>
+<h1 align="center"> DevLinks </h1>
 
-<p align="center"> Sabores que transformam momentos <span style="color: red;">♥</span></p>
+<p align="center"> Agregador de Links <span style="color: red;">♥</span></p>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
