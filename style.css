@@ -30,7 +30,7 @@ body {
     rgba(9, 9, 121, 1) 100%
   );
   --cor-linha: rgba(255, 255, 255, 0.5);
-  --cor-caixa: rgba(255, 255, 255, 0.1);
+  --cor-caixa: rgba(255, 255, 255, 0.2);
   --img-switch: url(./assets/moon.svg);
 }
 
@@ -107,11 +107,16 @@ body * {
   left: 0;
   top: 50%;
   transform: translateY(-50%);
+
+  animation: deslizar-claro 0.4s forwards;
 }
 
 .light #switch button {
-  left: initial;
-  right: 0;
+  animation: deslizar 0.4s forwards;
+}
+
+#switch button:hover {
+  outline: 4px solid var(--cor-caixa);
 }
 
 #switch span {
@@ -189,4 +194,23 @@ footer {
   padding: 24px;
   text-align: center;
   font-size: 14px;
+}
+
+/*animação*/
+@keyframes deslizar {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+
+@keyframes deslizar-claro {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
+  }
 }
