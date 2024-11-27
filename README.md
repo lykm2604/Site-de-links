@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img alt="License" src="./assets/foto-projeto.png">
+  <img alt="License" src="./assets/foto-do-projeto.png">
 </p>
 
 <br>
